@@ -260,7 +260,7 @@ export default function SwapsPage() {
           {swaps.filter(s => s?.requester && s?.provider).map(swap => (
             <SwapCard key={swap._id} swap={swap} currentUserId={user?._id}
               onAction={handleAction} onFeedback={setFeedbackTarget} />
-          ))}}
+          ))}
         </div>
       )}
 
