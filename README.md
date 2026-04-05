@@ -13,12 +13,8 @@
     <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20App-6366f1?style=for-the-badge&labelColor=0f172a" alt="Live Demo"/>
   </a>
   &nbsp;
-  <a href="https://skillswap-backend-j5aw.onrender.com/api/health">
-    <img src="https://img.shields.io/badge/⚡%20API-Live%20Status-22c55e?style=for-the-badge&labelColor=0f172a" alt="API Status"/>
-  </a>
-  &nbsp;
   <a href="mailto:sapgandhi811@gmail.com">
-    <img src="https://img.shields.io/badge/📧%20Contact-sapgandhi811-ea4335?style=for-the-badge&labelColor=0f172a" alt="Contact"/>
+    <img src="https://img.shields.io/badge/📧%20Contact-Author-ea4335?style=for-the-badge&labelColor=0f172a" alt="Contact"/>
   </a>
 </p>
 
@@ -92,8 +88,8 @@
 | 🖥️ Service | 🔗 URL | 📊 Status |
 |:---:|:---|:---:|
 | **Frontend** | https://skillswap-two-neon.vercel.app | ![Live](https://img.shields.io/badge/●-Live-22c55e?style=flat-square) |
-| **Backend API** | https://skillswap-backend-j5aw.onrender.com | ![Live](https://img.shields.io/badge/●-Live-22c55e?style=flat-square) |
-| **Health Check** | https://skillswap-backend-j5aw.onrender.com/api/health | ![Live](https://img.shields.io/badge/●-Live-22c55e?style=flat-square) |
+| **Backend API** | *Private — see deployment guide* | — |
+| **Health Check** | *Private — see deployment guide* | — |
 
 > ⚠️ Backend is on Render's free tier — first request may take **30–60 seconds** to wake up.
 
@@ -103,7 +99,7 @@
 
 | 👤 Role | 📧 Email | 🔑 Password |
 |:---:|:---|:---:|
-| 🛡️ **Admin** | sapgandhi811@gmail.com | admin123 |
+| 🛡️ **Admin** | *Contact owner for access* | *Not public* |
 | 👤 **User** | Register with any real email | Your choice |
 
 </div>
@@ -396,11 +392,11 @@ npm run dev
 ┌──────────────────────────────────────────────┐
 │  ADMIN                                        │
 │  Email:    admin@test.com                     │
-│  Password: admin123                           │
+│  Password: (set via seed script)              │
 ├──────────────────────────────────────────────┤
 │  USER                                         │
 │  Email:    alice@test.com                     │
-│  Password: test123                            │
+│  Password: (set via seed script)              │
 └──────────────────────────────────────────────┘
 ```
 
@@ -421,7 +417,7 @@ MONGO_URI=mongodb://localhost:27017/skillswap
 # MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/skillswap
 
 # ━━━━━━━━━━━━━━━━ AUTH ━━━━━━━━━━━━━━━━━
-JWT_SECRET=your_super_secret_key_min_32_characters_long
+JWT_SECRET=your_super_secret_key_here
 JWT_EXPIRES_IN=7d
 
 # ━━━━━━━━━━━━━━━━ CORS ━━━━━━━━━━━━━━━━━
@@ -432,7 +428,7 @@ SERVER_URL=http://localhost:5000
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_USER=your_gmail@gmail.com
-EMAIL_PASS=your_16_char_app_password
+EMAIL_PASS=your_gmail_app_password
 EMAIL_FROM=SkillSwap <noreply@skillswap.com>
 
 # ━━━━━━━━━━━━━━━━ FILES ━━━━━━━━━━━━━━━━
@@ -457,7 +453,7 @@ VITE_UPLOADS_URL=http://localhost:5000/uploads
 **Base URL:**
 ```
 Development  →  http://localhost:5000/api
-Production   →  https://skillswap-backend-j5aw.onrender.com/api
+Production   →  https://<your-render-backend-url>/api
 ```
 
 **Auth Header:**
