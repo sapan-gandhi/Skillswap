@@ -1,187 +1,238 @@
 <div align="center">
 
-# SkillSwap Platform
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=200&section=header&text=SkillSwap&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=Peer-to-Peer%20Skill%20Exchange%20Platform&descAlignY=55&descSize=20&animation=fadeIn" width="100%"/>
 
-### A Production-Ready Peer-to-Peer Skill Exchange Web Application
+<br/>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-6366f1?style=for-the-badge&logo=vercel)](https://skillswap-two-neon.vercel.app)
-[![Backend](https://img.shields.io/badge/Backend-API%20Live-22c55e?style=for-the-badge&logo=render)](https://skillswap-backend-j5aw.onrender.com/api/health)
-[![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)](LICENSE)
-[![Node](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Learn+Anything.+Teach+Everything.;Exchange+Skills%2C+Not+Money.;Built+with+MERN+Stack+%2B+Socket.io;Real-time+Chat+%2B+AI+Matching)](https://git.io/typing-svg)
 
-<br />
+<br/>
 
-**SkillSwap** is a full-stack web platform where people exchange skills with each other — no money involved, just mutual growth and genuine human connection. Built with the MERN stack, real-time Socket.io communication, AI-powered skill matching, and a complete admin dashboard.
+<p align="center">
+  <a href="https://skillswap-two-neon.vercel.app">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20App-6366f1?style=for-the-badge&labelColor=0f172a" alt="Live Demo"/>
+  </a>
+  &nbsp;
+  <a href="https://skillswap-backend-j5aw.onrender.com/api/health">
+    <img src="https://img.shields.io/badge/⚡%20API-Live%20Status-22c55e?style=for-the-badge&labelColor=0f172a" alt="API Status"/>
+  </a>
+  &nbsp;
+  <a href="mailto:sapgandhi811@gmail.com">
+    <img src="https://img.shields.io/badge/📧%20Contact-sapgandhi811-ea4335?style=for-the-badge&labelColor=0f172a" alt="Contact"/>
+  </a>
+</p>
 
-<br />
-
-![SkillSwap Banner](https://via.placeholder.com/900x400/0f172a/6366f1?text=SkillSwap+Platform)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2-61DAFB?style=flat-square&logo=react&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/MongoDB-7.0-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/Socket.io-4.6-010101?style=flat-square&logo=socketdotio&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/Tailwind-3.3-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/JWT-Auth-f59e0b?style=flat-square&logo=jsonwebtokens&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel&logoColor=white&labelColor=0f172a"/>
+  <img src="https://img.shields.io/badge/License-MIT-8b5cf6?style=flat-square&labelColor=0f172a"/>
+</p>
 
 </div>
 
 ---
 
-## 📌 Table of Contents
+<div align="center">
 
-- [Live Demo](#-live-demo)
-- [About the Project](#-about-the-project)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [System Architecture](#-system-architecture)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [API Documentation](#-api-documentation)
-- [Socket.io Events](#-socketio-events)
-- [Database Schema](#-database-schema)
-- [Deployment](#-deployment)
-- [Security](#-security)
-- [Screenshots](#-screenshots)
-- [Author](#-author)
+## 💡 What is SkillSwap?
+
+</div>
+
+> **SkillSwap** is a production-grade web platform that enables people to **exchange skills peer-to-peer** — completely free, no money involved. Trade your React knowledge for Guitar lessons. Swap Python expertise for Photography tips. Connect, learn, teach, and grow together.
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                   │
+│   👤 Alice knows React           👤 Bob knows Python             │
+│   👤 Alice wants Python    ←→    👤 Bob wants React              │
+│                                                                   │
+│              ✨ Perfect Match — Let's Swap! ✨                    │
+│                                                                   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+<div align="center">
+
+| | Section |
+|:---:|:---|
+| 🌐 | [Live Demo](#-live-demo) |
+| ✨ | [Features](#-features) |
+| 🛠️ | [Tech Stack](#%EF%B8%8F-tech-stack) |
+| 🏗️ | [Architecture](#%EF%B8%8F-system-architecture) |
+| 📁 | [Project Structure](#-project-structure) |
+| 🚀 | [Getting Started](#-getting-started) |
+| 🔧 | [Environment Variables](#-environment-variables) |
+| 📖 | [API Reference](#-api-reference) |
+| 📡 | [Socket Events](#-socketio-events) |
+| 🚢 | [Deployment](#-deployment) |
+| 🔒 | [Security](#-security) |
+| 👨‍💻 | [Author](#-author) |
+
+</div>
 
 ---
 
 ## 🌐 Live Demo
 
-| Service | URL |
-|---------|-----|
-| **Frontend (Vercel)** | https://skillswap-two-neon.vercel.app |
-| **Backend API (Render)** | https://skillswap-backend-j5aw.onrender.com |
-| **API Health Check** | https://skillswap-backend-j5aw.onrender.com/api/health |
+<div align="center">
 
-> ⚠️ **Note:** The backend is hosted on Render's free tier. It may take 30–60 seconds to wake up on first request.
+| 🖥️ Service | 🔗 URL | 📊 Status |
+|:---:|:---|:---:|
+| **Frontend** | https://skillswap-two-neon.vercel.app | ![Live](https://img.shields.io/badge/●-Live-22c55e?style=flat-square) |
+| **Backend API** | https://skillswap-backend-j5aw.onrender.com | ![Live](https://img.shields.io/badge/●-Live-22c55e?style=flat-square) |
+| **Health Check** | https://skillswap-backend-j5aw.onrender.com/api/health | ![Live](https://img.shields.io/badge/●-Live-22c55e?style=flat-square) |
 
-**Demo Credentials:**
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | sapgandhi811@gmail.com | admin123 |
-| User | Register with any email | Your choice |
+> ⚠️ Backend is on Render's free tier — first request may take **30–60 seconds** to wake up.
 
----
+<br/>
 
-## 🎯 About the Project
+### 🔑 Demo Credentials
 
-SkillSwap solves a simple but powerful problem: **everyone has something to teach and something to learn.** Instead of paying for courses or tutors, users can find someone who knows what they want to learn and teach them something in return.
+| 👤 Role | 📧 Email | 🔑 Password |
+|:---:|:---|:---:|
+| 🛡️ **Admin** | sapgandhi811@gmail.com | admin123 |
+| 👤 **User** | Register with any real email | Your choice |
 
-Whether it's trading React skills for Guitar lessons, or Python for Photography — SkillSwap makes it easy to find the perfect match, coordinate the exchange, and build a reputation through verified reviews.
-
-**This project demonstrates:**
-- Production-grade MERN stack architecture
-- Real-time bidirectional communication with Socket.io
-- AI-powered recommendation system using TF-IDF similarity scoring
-- JWT-based authentication with role-based access control
-- Complete admin dashboard with analytics and data export
-- Responsive, modern UI built with Tailwind CSS
+</div>
 
 ---
 
-## ✨ Key Features
+## ✨ Features
+
+<div align="center">
 
 ### 👤 User Features
-| Feature | Description |
-|---------|-------------|
-| 🔐 Authentication | Secure register/login with JWT tokens and bcrypt password hashing |
-| 👤 Profile Management | Full profile with photo upload, bio, location, and availability |
-| 🎯 Skills System | Add/remove skills you offer and skills you want to learn |
-| 🔍 Smart Search | Search users by skill with filters for availability, rating, and sort order |
-| 🤖 AI Recommendations | TF-IDF based matching algorithm suggests the best swap partners |
-| 📬 Swap Requests | Send, accept, reject, and complete skill exchange requests |
-| 💬 Real-time Chat | Live messaging with typing indicators and read receipts |
-| 🔔 Notifications | Instant in-app and email notifications for all swap activities |
-| ⭐ Reviews & Ratings | Leave star ratings and written reviews after swap completion |
-| 📊 Dashboard | Personal stats, recent swaps, and personalized recommendations |
+
+</div>
+
+```
+🔐  Authentication      →  Secure JWT login/register with bcrypt hashing
+👤  Profile Builder     →  Photo upload, bio, location, availability settings
+🎯  Skills Manager      →  Add skills you offer & skills you want to learn
+🔍  Smart Discovery     →  Search users by skill with advanced filters
+🤖  AI Recommendations  →  TF-IDF algorithm matches you with perfect partners
+📬  Swap Requests       →  Send, accept, reject, and track exchange requests
+💬  Real-time Chat      →  Instant messaging with typing indicators
+🔔  Live Notifications  →  Socket.io powered instant alerts + email alerts
+⭐  Reviews System      →  Star ratings and written reviews post-swap
+📊  Personal Dashboard  →  Stats, recent activity, and smart suggestions
+```
+
+<div align="center">
 
 ### 🛡️ Admin Features
-| Feature | Description |
-|---------|-------------|
-| 📈 Analytics Dashboard | Total users, swaps, ratings, and platform activity metrics |
-| 👥 User Management | View, ban/unban users, and update roles |
-| 🔄 Swap Monitoring | Monitor all swap requests with status filters |
-| 📥 Data Export | Export user data to CSV for offline analysis |
+
+</div>
+
+```
+📈  Analytics Dashboard →  Users, swaps, ratings, platform activity metrics
+👥  User Management     →  View all users, ban/unban, update roles
+🔄  Swap Monitoring     →  Filter and inspect all swap requests
+📥  CSV Export          →  Download complete user data for analysis
+```
+
+<div align="center">
 
 ### ⚡ Real-time Features
-| Feature | Description |
-|---------|-------------|
-| 💬 Live Chat | Instant messaging between swap partners |
-| ⌨️ Typing Indicators | See when the other person is typing |
-| 🟢 Online Status | Real-time online/offline presence tracking |
-| 🔔 Push Notifications | Instant swap request and status update alerts |
+
+</div>
+
+```
+💬  Live Chat           →  WebSocket-powered instant messaging
+⌨️  Typing Indicators   →  See when your partner is typing
+🟢  Online Presence     →  Real-time online/offline status tracking
+🔔  Push Notifications  →  Instant swap request and status alerts
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+
 ### Frontend
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| React | 18.2 | UI Framework |
-| Vite | 5.0 | Build Tool & Dev Server |
-| Tailwind CSS | 3.3 | Utility-first Styling |
-| React Router DOM | 6.20 | Client-side Routing |
-| Axios | 1.6 | HTTP Client |
-| Socket.io Client | 4.6 | Real-time Communication |
-| React Hot Toast | 2.4 | Toast Notifications |
-| date-fns | 2.30 | Date Formatting |
+
+| Technology | Version | Role |
+|:---:|:---:|:---|
+| ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) | 18.2 | UI Framework |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | 5.0 | Build Tool |
+| ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white) | 3.3 | Styling |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white) | 6.20 | Routing |
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white) | 1.6 | HTTP Client |
+| ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white) | 4.6 | Real-time |
 
 ### Backend
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| Node.js | 18+ | JavaScript Runtime |
-| Express.js | 4.18 | Web Framework |
-| MongoDB | 7.0 | NoSQL Database |
-| Mongoose | 8.0 | MongoDB ODM |
-| Socket.io | 4.6 | Real-time Engine |
-| JSON Web Token | 9.0 | Authentication |
-| bcryptjs | 2.4 | Password Hashing |
-| Multer | 1.4 | File Upload Handling |
-| Nodemailer | 6.9 | Email Service |
-| Helmet | 7.1 | Security Headers |
-| express-rate-limit | 7.1 | API Rate Limiting |
-| express-validator | 7.0 | Input Validation |
+
+| Technology | Version | Role |
+|:---:|:---:|:---|
+| ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) | 18+ | Runtime |
+| ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) | 4.18 | Framework |
+| ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | 7.0 | Database |
+| ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white) | 8.0 | ODM |
+| ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) | 9.0 | Auth |
+| ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white) | 4.6 | Real-time |
 
 ### Infrastructure
+
 | Service | Purpose |
-|---------|---------|
-| MongoDB Atlas | Cloud Database |
-| Render | Backend Hosting |
-| Vercel | Frontend Hosting |
-| Gmail SMTP | Email Delivery |
+|:---:|:---|
+| ![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white) | Cloud Database |
+| ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) | Backend Hosting |
+| ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | Frontend Hosting |
+| ![Gmail](https://img.shields.io/badge/Gmail_SMTP-EA4335?style=flat-square&logo=gmail&logoColor=white) | Email Service |
+
+</div>
 
 ---
 
 ## 🏗️ System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                        CLIENT LAYER                          │
-│              React + Vite (Vercel CDN)                       │
-│   ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐      │
-│   │  Pages   │ │ Context  │ │Services  │ │ Socket   │      │
-│   │(13 pages)│ │Auth/Socket│ │  (API)   │ │  Client  │      │
-│   └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘      │
-└────────┼────────────┼────────────┼─────────────┼────────────┘
-         │            │            │             │
-         │         HTTP/REST    WebSocket        │
-         ▼            ▼            ▼             ▼
-┌─────────────────────────────────────────────────────────────┐
-│                        SERVER LAYER                          │
-│              Node.js + Express (Render)                      │
-│   ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐      │
-│   │  Routes  │ │Controllers│ │Middleware│ │ Socket.io│      │
-│   │  (8)     │ │   (7)    │ │Auth/Valid│ │ Handler  │      │
-│   └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘      │
-└────────┼────────────┼────────────┼─────────────┼────────────┘
-         │                         │
-         ▼                         ▼
-┌─────────────────────────────────────────────────────────────┐
-│                       DATABASE LAYER                         │
-│              MongoDB Atlas (Cloud)                           │
-│   ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐      │
-│   │   User   │ │   Swap   │ │ Feedback │ │ Message  │      │
-│   │  Model   │ │  Request │ │  Model   │ │  Model   │      │
-│   └──────────┘ └──────────┘ └──────────┘ └──────────┘      │
-└─────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════╗
+║                     🌐 CLIENT LAYER                              ║
+║                  React + Vite (Vercel CDN)                       ║
+║                                                                  ║
+║   ┌─────────────┐   ┌─────────────┐   ┌─────────────────────┐  ║
+║   │   13 Pages  │   │  2 Contexts │   │   Axios + Socket.io │  ║
+║   │  + Layouts  │   │ Auth+Socket │   │      Services       │  ║
+║   └──────┬──────┘   └──────┬──────┘   └──────────┬──────────┘  ║
+╚══════════╪═════════════════╪════════════════════════╪════════════╝
+           │                 │                        │
+           │    HTTP/REST    │       WebSocket        │
+           ▼                 ▼                        ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                     ⚙️  SERVER LAYER                             ║
+║                Node.js + Express (Render)                        ║
+║                                                                  ║
+║  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────┐    ║
+║  │  Routes  │  │Controllers│  │   Auth   │  │  Socket.io   │    ║
+║  │   (8)    │  │    (7)   │  │Middleware│  │   Handler    │    ║
+║  └────┬─────┘  └────┬─────┘  └────┬─────┘  └──────┬───────┘    ║
+╚═══════╪═════════════╪═════════════╪════════════════╪════════════╝
+        │                           │                │
+        ▼                           ▼                ▼
+╔══════════════════════════════════════════════════════════════════╗
+║                     🗄️  DATABASE LAYER                           ║
+║                   MongoDB Atlas (Cloud)                          ║
+║                                                                  ║
+║   ┌──────────┐  ┌──────────────┐  ┌──────────┐  ┌──────────┐   ║
+║   │   User   │  │ SwapRequest  │  │ Feedback │  │ Message  │   ║
+║   │  Model   │  │    Model     │  │  Model   │  │  Model   │   ║
+║   └──────────┘  └──────────────┘  └──────────┘  └──────────┘   ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -189,208 +240,207 @@ Whether it's trading React skills for Guitar lessons, or Python for Photography 
 ## 📁 Project Structure
 
 ```
-skillswap/
+📦 skillswap/
 │
-├── backend/                          # Node.js + Express API
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── db.js                 # MongoDB connection
-│   │   ├── controllers/
-│   │   │   ├── auth.controller.js    # Register, login, me
-│   │   │   ├── user.controller.js    # Profile, notifications
-│   │   │   ├── swap.controller.js    # Swap CRUD operations
-│   │   │   ├── feedback.controller.js# Reviews & ratings
-│   │   │   ├── search.controller.js  # Search + AI recommendations
-│   │   │   ├── admin.controller.js   # Admin analytics & management
-│   │   │   └── chat.controller.js    # Message history
-│   │   ├── middleware/
-│   │   │   ├── auth.middleware.js    # JWT verification
-│   │   │   ├── validation.middleware.js # Input validation
-│   │   │   └── upload.middleware.js  # Multer file upload
-│   │   ├── models/
-│   │   │   ├── User.model.js         # User schema + indexes
-│   │   │   ├── SwapRequest.model.js  # Swap schema
-│   │   │   ├── Feedback.model.js     # Review schema
-│   │   │   └── Message.model.js      # Chat message schema
-│   │   ├── routes/
-│   │   │   ├── auth.routes.js
-│   │   │   ├── user.routes.js
-│   │   │   ├── swap.routes.js
-│   │   │   ├── feedback.routes.js
-│   │   │   ├── search.routes.js
-│   │   │   ├── admin.routes.js
-│   │   │   ├── chat.routes.js
-│   │   │   └── upload.routes.js
-│   │   ├── sockets/
-│   │   │   └── socketHandler.js      # Socket.io event handlers
-│   │   ├── utils/
-│   │   │   ├── jwt.utils.js          # Token generation & verification
-│   │   │   ├── email.utils.js        # Nodemailer email templates
-│   │   │   ├── skillMatch.utils.js   # AI TF-IDF matching algorithm
-│   │   │   └── seed.js               # Database seeder
-│   │   └── server.js                 # Express app entry point
-│   ├── uploads/                      # Profile photo storage
-│   ├── .env.example
-│   └── package.json
+├── 📂 backend/
+│   ├── 📂 src/
+│   │   ├── 📂 config/
+│   │   │   └── 📄 db.js                  # MongoDB connection & error handling
+│   │   │
+│   │   ├── 📂 controllers/               # Business logic layer
+│   │   │   ├── 📄 auth.controller.js     # Register, login, password change
+│   │   │   ├── 📄 user.controller.js     # Profile, skills, notifications
+│   │   │   ├── 📄 swap.controller.js     # CRUD for swap requests
+│   │   │   ├── 📄 feedback.controller.js # Ratings & reviews
+│   │   │   ├── 📄 search.controller.js   # Search + AI recommendations
+│   │   │   ├── 📄 admin.controller.js    # Analytics, ban, export
+│   │   │   └── 📄 chat.controller.js     # Message history
+│   │   │
+│   │   ├── 📂 middleware/                # Request processing layer
+│   │   │   ├── 📄 auth.middleware.js     # JWT verification + role check
+│   │   │   ├── 📄 validation.middleware.js # Input sanitization
+│   │   │   └── 📄 upload.middleware.js   # Multer file handler
+│   │   │
+│   │   ├── 📂 models/                    # MongoDB schemas
+│   │   │   ├── 📄 User.model.js          # User + full-text search index
+│   │   │   ├── 📄 SwapRequest.model.js   # Swap lifecycle model
+│   │   │   ├── 📄 Feedback.model.js      # Review schema
+│   │   │   └── 📄 Message.model.js       # Chat messages
+│   │   │
+│   │   ├── 📂 routes/                    # API route definitions
+│   │   │   ├── 📄 auth.routes.js
+│   │   │   ├── 📄 user.routes.js
+│   │   │   ├── 📄 swap.routes.js
+│   │   │   ├── 📄 feedback.routes.js
+│   │   │   ├── 📄 search.routes.js
+│   │   │   ├── 📄 admin.routes.js
+│   │   │   ├── 📄 chat.routes.js
+│   │   │   └── 📄 upload.routes.js
+│   │   │
+│   │   ├── 📂 sockets/
+│   │   │   └── 📄 socketHandler.js       # All Socket.io event logic
+│   │   │
+│   │   ├── 📂 utils/
+│   │   │   ├── 📄 jwt.utils.js           # Token generation & formatting
+│   │   │   ├── 📄 email.utils.js         # HTML email templates
+│   │   │   ├── 📄 skillMatch.utils.js    # 🤖 TF-IDF AI algorithm
+│   │   │   └── 📄 seed.js               # Database seeder with demo data
+│   │   │
+│   │   └── 📄 server.js                  # Express app + Socket.io bootstrap
+│   │
+│   ├── 📂 uploads/                       # Profile photo storage
+│   ├── 📄 .env.example
+│   └── 📄 package.json
 │
-├── frontend/                         # React + Vite SPA
-│   ├── src/
-│   │   ├── context/
-│   │   │   ├── AuthContext.jsx       # Auth state management
-│   │   │   └── SocketContext.jsx     # Socket.io context
-│   │   ├── layouts/
-│   │   │   ├── MainLayout.jsx        # App shell with sidebar
-│   │   │   └── AdminLayout.jsx       # Admin panel shell
-│   │   ├── pages/
-│   │   │   ├── LandingPage.jsx       # Marketing homepage
-│   │   │   ├── LoginPage.jsx         # Authentication
-│   │   │   ├── RegisterPage.jsx      # Registration
-│   │   │   ├── DashboardPage.jsx     # User dashboard
-│   │   │   ├── ProfilePage.jsx       # Own profile view
-│   │   │   ├── EditProfilePage.jsx   # Profile editor
-│   │   │   ├── UserProfilePage.jsx   # Other user's profile
-│   │   │   ├── SearchPage.jsx        # Skill discovery
-│   │   │   ├── SwapsPage.jsx         # Swap management
-│   │   │   ├── ChatPage.jsx          # Real-time messaging
-│   │   │   ├── NotFoundPage.jsx      # 404 page
-│   │   │   └── admin/
-│   │   │       ├── AdminDashboard.jsx # Analytics
-│   │   │       ├── AdminUsers.jsx     # User management
-│   │   │       └── AdminSwaps.jsx     # Swap monitoring
-│   │   ├── services/
-│   │   │   ├── api.js                # Axios + all API calls
-│   │   │   └── socket.js             # Socket.io client
-│   │   ├── App.jsx                   # Routes + guards
-│   │   ├── main.jsx                  # React entry point
-│   │   └── index.css                 # Global styles
-│   ├── vercel.json                   # Vercel routing config
-│   ├── vite.config.js
-│   ├── tailwind.config.js
-│   └── package.json
-│
-├── README.md
-└── .gitignore
+└── 📂 frontend/
+    ├── 📂 src/
+    │   ├── 📂 context/
+    │   │   ├── 📄 AuthContext.jsx         # Global auth state + token mgmt
+    │   │   └── 📄 SocketContext.jsx       # Real-time event distribution
+    │   │
+    │   ├── 📂 layouts/
+    │   │   ├── 📄 MainLayout.jsx          # Sidebar + responsive shell
+    │   │   └── 📄 AdminLayout.jsx         # Admin panel layout
+    │   │
+    │   ├── 📂 pages/
+    │   │   ├── 📄 LandingPage.jsx         # 🏠 Marketing homepage
+    │   │   ├── 📄 LoginPage.jsx           # 🔐 Auth forms
+    │   │   ├── 📄 RegisterPage.jsx
+    │   │   ├── 📄 DashboardPage.jsx       # 📊 User dashboard
+    │   │   ├── 📄 ProfilePage.jsx         # 👤 Own profile
+    │   │   ├── 📄 EditProfilePage.jsx     # ✏️  Profile editor + photo upload
+    │   │   ├── 📄 UserProfilePage.jsx     # 👀 View others + swap request modal
+    │   │   ├── 📄 SearchPage.jsx          # 🔍 Skill discovery + AI tab
+    │   │   ├── 📄 SwapsPage.jsx           # 🔄 Swap management + feedback
+    │   │   ├── 📄 ChatPage.jsx            # 💬 Real-time chat
+    │   │   ├── 📄 NotFoundPage.jsx        # 404
+    │   │   └── 📂 admin/
+    │   │       ├── 📄 AdminDashboard.jsx  # 📈 Analytics + charts
+    │   │       ├── 📄 AdminUsers.jsx      # 👥 User management table
+    │   │       └── 📄 AdminSwaps.jsx      # 🔄 Swap monitoring table
+    │   │
+    │   ├── 📂 services/
+    │   │   ├── 📄 api.js                  # Axios instance + all API calls
+    │   │   └── 📄 socket.js              # Socket.io client singleton
+    │   │
+    │   ├── 📄 App.jsx                     # Routes + private/admin guards
+    │   ├── 📄 main.jsx                    # React 18 entry point
+    │   └── 📄 index.css                  # Tailwind + custom CSS variables
+    │
+    ├── 📄 vercel.json                     # SPA routing fix for Vercel
+    ├── 📄 vite.config.js
+    ├── 📄 tailwind.config.js
+    └── 📄 package.json
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-Make sure you have the following installed:
+### ✅ Prerequisites
 
 ```bash
-node --version   # v18.0.0 or higher
-npm --version    # v8.0.0 or higher
+node --version    # Requires v18.0.0+
+npm --version     # Requires v8.0.0+
+mongod --version  # Local MongoDB OR use Atlas free tier
 ```
-
-You'll also need:
-- [MongoDB](https://www.mongodb.com/try/download/community) installed locally **OR** a free [MongoDB Atlas](https://cloud.mongodb.com) account
-- A Gmail account for email notifications (optional for development)
 
 ---
 
-### Installation
+### 📥 Installation
 
-**1. Clone the repository**
-
+**Step 1 — Clone the repository**
 ```bash
 git clone https://github.com/sapan-gandhi/skillswap.git
 cd skillswap
 ```
 
-**2. Setup Backend**
-
+**Step 2 — Setup Backend**
 ```bash
 cd backend
 npm install
 cp .env.example .env
+# Edit .env with your values (see Environment Variables section)
 ```
 
-Edit `.env` with your configuration (see [Environment Variables](#-environment-variables) section).
-
+**Step 3 — Seed the database**
 ```bash
-# Seed the database with demo data
 npm run seed
-
-# Start development server
-npm run dev
 ```
 
-✅ Backend running at `http://localhost:5000`
-
-**3. Setup Frontend**
-
-Open a new terminal:
-
+**Step 4 — Start the backend**
 ```bash
-cd frontend
+npm run dev
+# ✅ Server: http://localhost:5000
+```
+
+**Step 5 — Setup Frontend** *(new terminal)*
+```bash
+cd ../frontend
 npm install
 cp .env.example .env
+# Edit .env (defaults work for local dev)
 ```
 
-Edit `.env`:
-```env
-VITE_API_URL=http://localhost:5000/api
-VITE_SOCKET_URL=http://localhost:5000
-VITE_UPLOADS_URL=http://localhost:5000/uploads
-```
-
+**Step 6 — Start the frontend**
 ```bash
 npm run dev
+# ✅ App: http://localhost:5173
 ```
 
-✅ Frontend running at `http://localhost:5173`
+---
 
-**4. Open the app**
+### 🔑 Demo Login (after seed)
 
-Navigate to **http://localhost:5173** and login with demo credentials:
-
-| Role | Email | Password |
-|------|-------|----------|
-| **Admin** | admin@test.com | admin123 |
-| **User** | alice@test.com | test123 |
-| **User** | bob@test.com | test123 |
+```
+┌──────────────────────────────────────────────┐
+│  ADMIN                                        │
+│  Email:    admin@test.com                     │
+│  Password: admin123                           │
+├──────────────────────────────────────────────┤
+│  USER                                         │
+│  Email:    alice@test.com                     │
+│  Password: test123                            │
+└──────────────────────────────────────────────┘
+```
 
 ---
 
 ## 🔧 Environment Variables
 
-### Backend (`backend/.env`)
+### Backend `.env`
 
 ```env
-# ── Server ────────────────────────────────────
+# ━━━━━━━━━━━━━━━━ SERVER ━━━━━━━━━━━━━━━━
 PORT=5000
-NODE_ENV=development                    # development | production
+NODE_ENV=development
 
-# ── Database ──────────────────────────────────
+# ━━━━━━━━━━━━━━━━ DATABASE ━━━━━━━━━━━━━━
 MONGO_URI=mongodb://localhost:27017/skillswap
-# Production: mongodb+srv://<user>:<pass>@cluster.mongodb.net/skillswap
+# Production ↓
+# MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/skillswap
 
-# ── Authentication ────────────────────────────
-JWT_SECRET=your_super_secret_jwt_key_min_32_chars
+# ━━━━━━━━━━━━━━━━ AUTH ━━━━━━━━━━━━━━━━━
+JWT_SECRET=your_super_secret_key_min_32_characters_long
 JWT_EXPIRES_IN=7d
 
-# ── CORS ──────────────────────────────────────
-CLIENT_URL=http://localhost:5173        # Frontend URL
-
-# ── Server URL (for file links) ───────────────
+# ━━━━━━━━━━━━━━━━ CORS ━━━━━━━━━━━━━━━━━
+CLIENT_URL=http://localhost:5173
 SERVER_URL=http://localhost:5000
 
-# ── File Upload ───────────────────────────────
-UPLOAD_PATH=uploads/
-MAX_FILE_SIZE=5242880                   # 5MB in bytes
-
-# ── Email (Gmail SMTP) ────────────────────────
+# ━━━━━━━━━━━━━━━━ EMAIL ━━━━━━━━━━━━━━━━
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_USER=your_gmail@gmail.com
-EMAIL_PASS=your_16_char_app_password    # Gmail App Password
+EMAIL_PASS=your_16_char_app_password
 EMAIL_FROM=SkillSwap <noreply@skillswap.com>
+
+# ━━━━━━━━━━━━━━━━ FILES ━━━━━━━━━━━━━━━━
+UPLOAD_PATH=uploads/
+MAX_FILE_SIZE=5242880
 ```
 
-### Frontend (`frontend/.env`)
+### Frontend `.env`
 
 ```env
 VITE_API_URL=http://localhost:5000/api
@@ -398,141 +448,98 @@ VITE_SOCKET_URL=http://localhost:5000
 VITE_UPLOADS_URL=http://localhost:5000/uploads
 ```
 
-> 💡 **Getting Gmail App Password:** Go to Google Account → Security → Enable 2FA → Search "App Passwords" → Generate for "Mail" → Use the 16-character code as `EMAIL_PASS`
+> 💡 **Gmail App Password:** Google Account → Security → 2FA → App Passwords → Generate for Mail
 
 ---
 
-## 📖 API Documentation
+## 📖 API Reference
 
-### Base URL
+**Base URL:**
 ```
-Development:  http://localhost:5000/api
-Production:   https://skillswap-backend-j5aw.onrender.com/api
-```
-
-### Authentication
-All protected routes require a Bearer token in the Authorization header:
-```
-Authorization: Bearer <your_jwt_token>
+Development  →  http://localhost:5000/api
+Production   →  https://skillswap-backend-j5aw.onrender.com/api
 ```
 
----
-
-### 🔐 Auth Endpoints
-
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `POST` | `/auth/register` | ❌ | Register new user |
-| `POST` | `/auth/login` | ❌ | Login and get JWT token |
-| `GET` | `/auth/me` | ✅ | Get current user info |
-| `PUT` | `/auth/change-password` | ✅ | Change password |
-
-**Register Request:**
-```json
-{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "securepass123",
-  "location": "Mumbai, India"
-}
+**Auth Header:**
 ```
-
-**Login Response:**
-```json
-{
-  "success": true,
-  "token": "eyJhbGciOiJIUzI1NiIs...",
-  "user": {
-    "_id": "...",
-    "name": "John Doe",
-    "email": "john@example.com",
-    "role": "user",
-    "skillsOffered": [],
-    "skillsWanted": []
-  }
-}
+Authorization: Bearer <jwt_token>
 ```
 
 ---
 
-### 👤 User Endpoints
+### 🔐 Authentication
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `GET` | `/users/profile` | ✅ | Get own profile |
-| `PUT` | `/users/update` | ✅ | Update profile & skills |
-| `GET` | `/users/:id` | Optional | Get user by ID |
-| `GET` | `/users/notifications` | ✅ | Get notifications |
-| `PUT` | `/users/notifications/read` | ✅ | Mark all as read |
-| `GET` | `/users/skill-suggestions` | ✅ | AI skill suggestions |
-
----
-
-### 🔍 Search Endpoints
-
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `GET` | `/search` | Optional | Search users by skill |
-| `GET` | `/search/recommendations` | ✅ | AI-powered matches |
-| `GET` | `/search/popular-skills` | ❌ | Trending skills |
-
-**Search Query Parameters:**
 ```
-?skill=react&availability=evenings&minRating=4&sort=rating&page=1&limit=12
+POST   /auth/register          →  Create new account
+POST   /auth/login             →  Login, receive JWT
+GET    /auth/me           🔒   →  Get current user
+PUT    /auth/change-password 🔒 →  Update password
 ```
 
----
+### 👤 Users
 
-### 🔄 Swap Endpoints
-
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `POST` | `/swaps` | ✅ | Send swap request |
-| `GET` | `/swaps` | ✅ | Get my swaps |
-| `GET` | `/swaps/:id` | ✅ | Get swap details |
-| `PUT` | `/swaps/:id` | ✅ | Update status (accept/reject/complete) |
-
-**Create Swap Request:**
-```json
-{
-  "providerId": "user_object_id",
-  "skillOffered": "react",
-  "skillRequested": "python",
-  "message": "Hi! Would love to exchange skills.",
-  "scheduledDate": "2024-12-25T10:00:00.000Z"
-}
+```
+GET    /users/profile         🔒 →  Own profile
+PUT    /users/update          🔒 →  Update profile & skills
+GET    /users/:id             🔓 →  Any user's public profile
+GET    /users/notifications   🔒 →  Get notifications
+PUT    /users/notifications/read 🔒 → Mark all read
+POST   /upload/profile-photo  🔒 →  Upload profile picture
 ```
 
----
+### 🔍 Search & Discovery
 
-### ⭐ Feedback Endpoints
+```
+GET    /search                🔓 →  Search users by skill + filters
+GET    /search/recommendations 🔒 →  AI-powered match suggestions
+GET    /search/popular-skills  🔓 →  Trending skills on platform
+```
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `POST` | `/feedback` | ✅ | Submit review after swap |
-| `GET` | `/feedback/:userId` | ❌ | Get user's reviews |
+**Search Parameters:**
+```
+?skill=react
+&availability=evenings
+&minRating=4
+&sort=rating|relevance|newest|active
+&page=1
+&limit=12
+```
 
----
+### 🔄 Swaps
 
-### 💬 Chat Endpoints
+```
+POST   /swaps                 🔒 →  Send swap request
+GET    /swaps                 🔒 →  My swaps (sent + received)
+GET    /swaps/:id             🔒 →  Swap details
+PUT    /swaps/:id             🔒 →  Accept/Reject/Complete/Cancel
+```
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `GET` | `/chat/conversations` | ✅ | Get all conversations |
-| `GET` | `/chat/messages/:roomId` | ✅ | Get chat messages |
+### ⭐ Feedback
 
----
+```
+POST   /feedback              🔒 →  Submit review (post-swap only)
+GET    /feedback/:userId      🔓 →  User's reviews & ratings
+```
 
-### 🛡️ Admin Endpoints
+### 💬 Chat
 
-| Method | Endpoint | Auth | Role |
-|--------|----------|------|------|
-| `GET` | `/admin/users` | ✅ | Admin only |
-| `PUT` | `/admin/ban/:id` | ✅ | Admin only |
-| `PUT` | `/admin/users/:id/role` | ✅ | Admin only |
-| `GET` | `/admin/swaps` | ✅ | Admin only |
-| `GET` | `/admin/analytics` | ✅ | Admin only |
-| `GET` | `/admin/export/users` | ✅ | Admin only |
+```
+GET    /chat/conversations    🔒 →  All conversations list
+GET    /chat/messages/:roomId 🔒 →  Message history
+```
+
+### 🛡️ Admin (Admin Role Required)
+
+```
+GET    /admin/analytics       🔒🛡️ →  Platform statistics
+GET    /admin/users           🔒🛡️ →  All users (paginated)
+PUT    /admin/ban/:id         🔒🛡️ →  Ban or unban a user
+PUT    /admin/users/:id/role  🔒🛡️ →  Change user role
+GET    /admin/swaps           🔒🛡️ →  All swaps (paginated)
+GET    /admin/export/users    🔒🛡️ →  Download CSV
+```
+
+> 🔒 = Requires JWT token &nbsp;&nbsp; 🔓 = Public &nbsp;&nbsp; 🛡️ = Admin only
 
 ---
 
@@ -540,241 +547,193 @@ Authorization: Bearer <your_jwt_token>
 
 ### Client → Server
 
-| Event | Payload | Description |
-|-------|---------|-------------|
-| `join_room` | `{ roomId }` | Join a chat room |
-| `leave_room` | `{ roomId }` | Leave a chat room |
-| `send_message` | `{ roomId, receiverId, content }` | Send a message |
-| `typing` | `{ roomId, isTyping }` | Typing indicator |
-| `mark_read` | `{ roomId }` | Mark messages as read |
+```javascript
+// Join a chat room
+socket.emit('join_room', { roomId: 'chat_userId1_userId2' })
+
+// Send a message
+socket.emit('send_message', {
+  roomId: 'chat_...',
+  receiverId: 'user_object_id',
+  content: 'Hey! Are you ready to swap?'
+})
+
+// Typing indicator
+socket.emit('typing', { roomId: 'chat_...', isTyping: true })
+
+// Mark messages read
+socket.emit('mark_read', { roomId: 'chat_...' })
+```
 
 ### Server → Client
 
-| Event | Payload | Description |
-|-------|---------|-------------|
-| `receive_message` | `Message object` | New incoming message |
-| `user_typing` | `{ userId, name, isTyping }` | Typing indicator |
-| `messages_read` | `{ roomId, userId }` | Messages read confirmation |
-| `swap_notification` | `{ type, swap, message }` | Swap status update |
-| `new_message_notification` | `{ roomId, sender, preview }` | Unread message alert |
-| `user_online` | `{ userId, isOnline }` | Online/offline status |
-
----
-
-## 🗄️ Database Schema
-
-### User Schema
 ```javascript
-{
-  name: String,                    // Required, 2-50 chars
-  email: String,                   // Required, unique, indexed
-  password: String,                // Bcrypt hashed, 12 rounds
-  role: Enum['user', 'admin'],     // Default: 'user'
-  profilePhoto: String,            // Filename of uploaded photo
-  bio: String,                     // Max 300 chars
-  location: String,
-  skillsOffered: [String],         // Indexed for search
-  skillsWanted: [String],          // Indexed for search
-  availability: Enum[...],         // flexible/weekdays/weekends/evenings
-  rating: Number,                  // Average rating (0-5)
-  ratingCount: Number,             // Total number of ratings
-  completedSwaps: Number,
-  isBanned: Boolean,
-  isOnline: Boolean,
-  lastActive: Date,
-  notifications: [NotificationSchema]
-}
-```
+// New message received
+socket.on('receive_message', (message) => { ... })
 
-### SwapRequest Schema
-```javascript
-{
-  requester: ObjectId → User,
-  provider: ObjectId → User,
-  skillOffered: String,
-  skillRequested: String,
-  status: Enum['pending', 'accepted', 'rejected', 'completed', 'cancelled'],
-  message: String,                 // Max 500 chars
-  scheduledDate: Date,
-  completedAt: Date,
-  chatRoomId: String,              // Auto-generated from user IDs
-  requesterFeedback: Boolean,
-  providerFeedback: Boolean
-}
-```
+// Someone is typing
+socket.on('user_typing', ({ name, isTyping }) => { ... })
 
-### Feedback Schema
-```javascript
-{
-  swapId: ObjectId → SwapRequest,  // Unique constraint per user per swap
-  fromUser: ObjectId → User,
-  toUser: ObjectId → User,
-  rating: Number,                  // 1-5
-  comment: String,                 // Max 500 chars
-  skillReviewed: String
-}
-```
+// Swap status changed
+socket.on('swap_notification', ({ type, swap, message }) => { ... })
 
-### Message Schema
-```javascript
-{
-  chatRoomId: String,              // Indexed
-  sender: ObjectId → User,
-  receiver: ObjectId → User,
-  content: String,                 // Max 1000 chars
-  messageType: Enum['text', 'image', 'system'],
-  isRead: Boolean,
-  readAt: Date
-}
+// User came online/offline
+socket.on('user_online', ({ userId, isOnline }) => { ... })
+
+// New message in another chat
+socket.on('new_message_notification', ({ roomId, sender, preview }) => { ... })
 ```
 
 ---
 
 ## 🚢 Deployment
 
-### Database — MongoDB Atlas (Free)
+<div align="center">
 
-1. Create account at [mongodb.com/atlas](https://cloud.mongodb.com)
-2. Create a free M0 cluster
-3. Create database user with password
-4. Add `0.0.0.0/0` to Network Access
-5. Get connection string → replace `<password>` and add `/skillswap`
+```
+┌────────────────────────────────────────────────────┐
+│                  Deployment Stack                   │
+│                                                     │
+│  ┌─────────────┐    ┌────────────┐    ┌──────────┐  │
+│  │   Vercel    │    │   Render   │    │  MongoDB │  │
+│  │  Frontend   │◄──►│  Backend   │◄──►│  Atlas   │  │
+│  │  (React)    │    │  (Node.js) │    │ (Cloud)  │  │
+│  └─────────────┘    └────────────┘    └──────────┘  │
+└────────────────────────────────────────────────────┘
+```
 
-### Backend — Render (Free)
+</div>
 
-1. Push code to GitHub
-2. Go to [render.com](https://render.com) → New Web Service
-3. Connect GitHub repo
-4. Configure:
-   ```
-   Root Directory: backend
-   Build Command:  npm install
-   Start Command:  node src/server.js
-   ```
+### 1️⃣ MongoDB Atlas
+```
+1. Create account → https://cloud.mongodb.com
+2. New Project → Create Free M0 Cluster (Mumbai region for India)
+3. Database Access → Add User → Username + Password
+4. Network Access → Add IP → Allow from Anywhere (0.0.0.0/0)
+5. Connect → Drivers → Copy connection string
+6. Replace <password> and add /skillswap to the URI
+```
+
+### 2️⃣ Render (Backend)
+```
+1. https://render.com → New Web Service → Connect GitHub
+2. Root Directory:  backend
+3. Build Command:   npm install
+4. Start Command:   node src/server.js
 5. Add all environment variables
-6. Deploy
+6. Deploy → Get your URL
+```
 
-### Frontend — Vercel (Free)
-
-1. Go to [vercel.com](https://vercel.com) → New Project
-2. Import GitHub repo
-3. Configure:
-   ```
-   Framework:     Vite
-   Root Directory: frontend
-   Build Command: npm run build
-   Output Dir:    dist
-   ```
-4. Add environment variables:
-   ```
-   VITE_API_URL     = https://your-backend.onrender.com/api
-   VITE_SOCKET_URL  = https://your-backend.onrender.com
-   VITE_UPLOADS_URL = https://your-backend.onrender.com/uploads
-   ```
-5. Deploy
-
-> ⚠️ Make sure `CLIENT_URL` on Render matches your exact Vercel domain.
+### 3️⃣ Vercel (Frontend)
+```
+1. https://vercel.com → New Project → Import GitHub repo
+2. Framework:       Vite
+3. Root Directory:  frontend
+4. Build Command:   npm run build
+5. Add environment variables (use Render URL for VITE_API_URL)
+6. Deploy → Get your URL
+7. Update CLIENT_URL on Render to match Vercel URL
+```
 
 ---
 
 ## 🔒 Security
 
-This project implements multiple layers of security:
-
-| Security Measure | Implementation |
-|-----------------|----------------|
-| **Password Hashing** | bcrypt with 12 salt rounds |
-| **Authentication** | JWT tokens with configurable expiry |
-| **Authorization** | Role-based access control (user/admin) |
-| **Input Validation** | express-validator on all POST/PUT endpoints |
-| **Rate Limiting** | 200 req/15min globally, 20 req/15min for auth |
-| **Security Headers** | Helmet.js (XSS, CSRF, clickjacking protection) |
-| **CORS** | Configured for specific frontend origin only |
-| **Ban System** | Banned users blocked at middleware level |
-| **File Upload** | Type and size validation (images only, max 5MB) |
-
----
-
-## 📸 Screenshots
-
-### Landing Page
-> Clean, modern hero section with skill tags and feature highlights
-
-### User Dashboard
-> Personal stats, recent swap requests, and AI-powered recommendations
-
-### Skill Search
-> Filter by skill, availability, and rating with grid view
-
-### Real-time Chat
-> Clean messaging interface with typing indicators
-
-### Admin Dashboard
-> Analytics charts, user management, and data export
+```
+╔═══════════════════════════════════════════════════════════╗
+║                   Security Measures                        ║
+╠═══════════════════════════════════════════════════════════╣
+║  🔑  JWT Authentication     — Signed tokens, 7d expiry    ║
+║  🔐  bcrypt Hashing         — 12 salt rounds on passwords  ║
+║  ✅  Input Validation       — express-validator on all routes║
+║  🚦  Rate Limiting          — 200 req/15min, 20 for auth   ║
+║  🪖  Helmet.js              — Security headers (XSS, etc.) ║
+║  🌐  CORS                   — Strict origin whitelist      ║
+║  🚫  Ban System             — Middleware-level enforcement  ║
+║  📁  File Validation        — Type + size checks (max 5MB) ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
 ---
 
 ## 🗺️ Roadmap
 
-- [ ] OAuth (Google/GitHub) login
-- [ ] Video calling integration for swap sessions
-- [ ] Skill verification badges
-- [ ] Mobile app (React Native)
-- [ ] Advanced AI matching with NLP
-- [ ] Scheduled session calendar integration
-- [ ] Group skill exchange sessions
-- [ ] Stripe integration for premium features
+- [x] JWT Authentication & Role-based Access
+- [x] Real-time Chat with Socket.io
+- [x] AI Skill Matching (TF-IDF)
+- [x] Admin Dashboard with Analytics
+- [x] Email Notifications
+- [x] Profile Photo Upload
+- [x] Full Production Deployment
+- [ ] OAuth Login (Google / GitHub)
+- [ ] Video Calling for Swap Sessions
+- [ ] Mobile App (React Native)
+- [ ] Calendar Integration for Scheduling
+- [ ] Skill Verification Badges
+- [ ] Group Skill Exchange Sessions
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how to get started:
+Contributions, issues, and feature requests are welcome!
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
+```bash
+# Fork the repo and clone it
+git clone https://github.com/YOUR_USERNAME/skillswap.git
 
-Please make sure to:
-- Follow the existing code style
-- Add comments for complex logic
-- Test your changes thoroughly
-- Update the README if needed
+# Create a feature branch
+git checkout -b feature/your-amazing-feature
+
+# Make your changes and commit
+git commit -m "feat: add your amazing feature"
+
+# Push and open a Pull Request
+git push origin feature/your-amazing-feature
+```
+
+**Please follow these guidelines:**
+- Write clean, commented code
+- Test all changes before submitting
+- Follow existing naming conventions
+- Update docs if needed
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+```
+MIT License
 
-You are free to use, modify, and distribute this project for personal, educational, or commercial purposes with attribution.
+Copyright (c) 2024 Sapan Gandhi
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software to use, copy, modify, merge, publish, distribute,
+and/or sell copies of the Software without restriction.
+```
 
 ---
+
+<div align="center">
 
 ## 👨‍💻 Author
 
-<div align="center">
+<img src="https://avatars.githubusercontent.com/sapan-gandhi" width="100" style="border-radius:50%"/>
 
-### Sapan Gandhi
+### **Sapan Gandhi**
 
-**Full-Stack Developer | MERN Stack | React | Node.js**
+*Full-Stack Developer | MERN Stack Enthusiast*
 
-[![Email](https://img.shields.io/badge/Email-sapgandhi811%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:sapgandhi811@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-sapan--gandhi-181717?style=for-the-badge&logo=github)](https://github.com/sapan-gandhi)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sapan-gandhi)
-
-*Built with ❤️ and a lot of ☕*
-
-</div>
+[![Email](https://img.shields.io/badge/Gmail-sapgandhi811%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sapgandhi811@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-sapan--gandhi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sapan-gandhi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sapan-gandhi)
 
 ---
 
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-**If you found this project useful, please consider giving it a ⭐ on GitHub!**
+*If this project helped you, please give it a* ⭐ *on GitHub!*
 
-*© 2024 Sapan Gandhi — SkillSwap Platform*
+*Built with ❤️ by Sapan Gandhi*
 
 </div>
